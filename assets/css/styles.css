@@ -423,3 +423,27 @@ footer::after {
   right: -50px;
   transform: rotateZ(10deg);
 }
+
+.subscrioptionsList{
+  list-style: none;
+  border: 2px solid #fff;
+  background-color: linear-gradient(    var(--highlight-color),    var(--highlight-color-contrast)  );
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  letter-spacing: 3px;
+  border-radius: 10px;
+}
+.subscrioptionsList strong{
+  color: #000;
+  font-size: 20px;
+}
+
+#subscriptions{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
